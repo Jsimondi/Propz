@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./stores.component.scss']
 })
 export class StoresComponent {
+  storesArray: string[] = ['Belo Horizonte', 'Campinas', 'São Paulo', 'Rio de Janeiro']
 
 }
