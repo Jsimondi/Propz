@@ -1,0 +1,23 @@
+.header-wrapper {
+    // background: rgb(52,52,138);
+    // background: linear-gradient(70deg, rgba(52,52,138,0.9934348739495799) 20%, rgba(237,112,45,1) 60%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-family: "TiltWarp";
+        font-size: 5em;
+        color: orange;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    p {
+        width: 350px;
+        text-align: center;
+    }
+}
