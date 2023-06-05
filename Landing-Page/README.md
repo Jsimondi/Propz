@@ -12,7 +12,7 @@ mobile.
 - A página deve funcionar em versões recentes dos navegadores Edge, Chrome
 e Firefox.
 
-E um arquivo [MJML](https://mjml.io)  **Email de Marketing** contendo:
+E um arquivo [MJML](https://mjml.io) (**Na pasta ./assets/email/offers.mjml**)  **Email de Marketing** contendo:
 - O template deve apresentar ao menos 6 ofertas
 - As ofertas presentes no exemplo são meramente para ilustrar posicionamento
 e formatação. Crie sua própria lista de ofertas.
@@ -21,12 +21,12 @@ e formatação. Crie sua própria lista de ofertas.
 com compatibilidade com outros clientes de e-mail.
 
 ## Comentários gerais:
-As informações para executar o projeto estão logo abaixo. Caso algum problema aconteça estou a disposição para ajudar. Em anexo estão também arquivos que representam o estado de desenvolvimento das páginas (email e landing page) que vou manter atualizados conforme o desenvolvimento.
+As informações para executar o projeto estão logo abaixo e são as padrões para qualquer projeto Angular.. Caso algum problema aconteça estou a disposição para ajudar. Em anexo estão também arquivos que representam o estado de desenvolvimento das páginas (email e landing page) que vou manter atualizados conforme o desenvolvimento.
 Minha ideia principal foi executar ambos os projetos focando nas funcionalidades. Por não possuir tanto tempo, acabei não focando na qualidade e tratamento das imagens que representam os produtos.
 Infelizmente a biblioteca [Swiper](https://swiperjs.com) acabou me dando mais atrapalhando do que ajudando, na hora de fazer o carrossel. Por isso optei por criar o meu próprio, tomando um pouco mais de tempo.
 Tirando este impecílio da biblioteca, o projeto foi bem divertido de implementar e me ajudou a relembrar bastante coisa da "linguagem" MJML, para os templates de email.
 
-### Coisas que ainda pretendo implementar:
+### Melhorias que pretendo implementar:
 - Carrossel de produtos exibindo mais de um produto em layouts de maior tamanho (exibir 2 produtos no modo tablet, 3 produtos para notebook ou maior por exemplo.)
 - Índices interativos abaixo das imagens do carrossel, indicando quantos produtos ainda existem na lista (opcional).
 - Melhorar a qualidade e tamanho das imagens, para que todas fiquem proporcionais e não seja necessário nenhum truque de css para forçá-las a ter o mesmo tamanho.
@@ -35,6 +35,10 @@ Tirando este impecílio da biblioteca, o projeto foi bem divertido de implementa
 ### AngularCLI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
+
+### NPM Install
+
+Run `npm install` to install all the libraries on this project.
 
 ### Development server
 
