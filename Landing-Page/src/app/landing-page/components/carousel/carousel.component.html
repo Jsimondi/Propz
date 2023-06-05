@@ -1,1 +1,40 @@
-<p>carousel works!</p>
+<div *ngIf="carouselJSON" class="carousel-wrapper">
+    <div *ngFor="let item of carouselJSON.content, index as i" class="carousel">
+        <div class="carousel__image" *ngIf="i === carouselIndex">
+            <img [src]="item.imgSrc">
+            <i class="material-symbols-outlined carousel__image--arrow" (click)="previous()">navigate_before</i>
+            <i class="material-symbols-outlined carousel__image--arrow right-arrow" (click)="next()">navigate_next</i>
+        </div>
+        <div class="carousel__item" *ngIf="i === carouselIndex">
+            <div class="carousel__item--description">
+                <p class="product-name">
+                    {{ item['product-name'] }}
+                </p>
+                <p class="additional-info">
+                    {{ item['additional-info'] }}
+                </p>
+            </div>
+            <div class="carousel__item--price" *ngIf="i === carouselIndex">
+                <div class="left-side">
+                    <p>
+                        {{ item.price.installments }}
+                    </p>
+                    <span>sem juros*</span>
+                    <p>
+                        {{ item.price['installments-with-interest'] }}
+                    </p>
+                    <span>com juros*</span>
+                </div>
+                <div class="right-side">
+                    <div class="credit-cards-wrapper">
+                        <img *ngIf="item.price['accepted-cards'].includes('Mastercard')" src="./assets/images/mastercard.png">
+                        <img *ngIf="item.price['accepted-cards'].includes('Visa')" src="./assets/images/visa.png">
+                    </div>
+                    <p>
+                        ou {{ item.price['purchase-in-full'] }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

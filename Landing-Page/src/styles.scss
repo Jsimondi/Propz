@@ -2,4 +2,9 @@
 @font-face {
     font-family: 'TiltWarp';
     src: url('./assets/fonts/TiltWarp-Regular.ttf');
-  }
+}
+
+body, html {
+    font-family: 'Roboto';
+    font-size: 14px;
+}

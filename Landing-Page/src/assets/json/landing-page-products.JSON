@@ -1,0 +1,83 @@
+{
+    "type": "landing-page",
+    "content": [
+        {
+            "product-name": "Controle PS5 Branco",
+            "additional-info": "10 unidades restantes",
+            "imgSrc": "./assets/images/ps5-controller.jpg",
+            "price": {
+                "purchase-in-full": "R$ 799,90 à vista",
+                "installments": "10X R$ 79,99",
+                "installments-with-interest": "15X R$ 92,50",
+                "accepted-cards": [
+                    "Mastercard", "Visa"
+                ]
+            }
+        },
+        {
+            "product-name": "Controle Xbox One Preto",
+            "additional-info": "30 unidades restantes",
+            "imgSrc": "./assets/images/xbox-controller.jpg",
+            "price": {
+                "purchase-in-full": "R$ 699,90 à vista",
+                "installments": "10X R$ 69,99",
+                "installments-with-interest": "15X R$ 75,50",
+                "accepted-cards": [
+                    "Mastercard", "Visa"
+                ]
+            }
+        },
+        {
+            "product-name": "Nintendo Switch: Zelda Breath Of The Wild",
+            "additional-info": "5 unidades restantes",
+            "imgSrc": "./assets/images/zelda-botw.jpg",
+            "price": {
+                "purchase-in-full": "R$ 249,90 à vista",
+                "installments": "10X R$ 24,99",
+                "installments-with-interest": "15X R$ 35,50",
+                "accepted-cards": [
+                    "Mastercard", "Visa"
+                ]
+            }
+        },
+        {
+            "product-name": "Xbox One: Just Dance",
+            "additional-info": "15 unidades restantes",
+            "imgSrc": "./assets/images/just-dance.jpg",
+            "price": {
+                "purchase-in-full": "R$ 200,00 à vista",
+                "installments": "10X R$ 20,00",
+                "installments-with-interest": "15X R$ 25,00",
+                "accepted-cards": [
+                    "Mastercard", "Visa"
+                ]
+            }
+        },
+        {
+            "product-name": "Console Nintendo Switch Edição Básica",
+            "additional-info": "Ultima unidade!",
+            "imgSrc": "./assets/images/nintendo-switch.jpg",
+            "price": {
+                "purchase-in-full": "R$ 2600,00 à vista",
+                "installments": "10X R$ 260,00",
+                "installments-with-interest": "15X R$ 2850,00",
+                "accepted-cards": [
+                    "Mastercard", "Visa"
+                ]
+            }
+        },
+        {
+            "product-name": "PS5 Edição God of War + Controle",
+            "additional-info": "Ultima unidade!",
+            "imgSrc": "./assets/images/ps5-gow-combo.jpg",
+            "price": {
+                "purchase-in-full": "R$ 3899,90 à vista",
+                "installments": "10X R$ 389,99",
+                "installments-with-interest": "15X R$ 415,99",
+                "accepted-cards": [
+                    "Mastercard", "Visa"
+                ]
+            }
+        }
+    ]
+}

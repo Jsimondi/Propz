@@ -5,6 +5,7 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { StoresComponent } from './components/stores/stores.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LandingPageComponent } from './landing-page.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -14,10 +15,11 @@ import { LandingPageComponent } from './landing-page.component';
     CarouselComponent,
     StoresComponent,
     FooterComponent,
-    LandingPageComponent
+    LandingPageComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    HttpClientModule
   ],
   exports: [
     HeaderComponent,
