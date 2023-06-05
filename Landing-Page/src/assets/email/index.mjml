@@ -1,0 +1,101 @@
+<mjml>
+  <mj-body background-color="#FFFFFF">
+    <mj-section>
+      <mj-column>
+        <mj-image width="100px" src="../images/propz-logo.svg"></mj-image>
+        <mj-text
+            padding="32px"
+            align="center"
+            container-background-color="#F9F9F9"
+            font-size="24px"
+            color="#676767"
+            font-family="roboto"
+            font-weight="600"
+            >Confira as nossas ofertas semanais
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-image width="100px" height="100px" src="../images/nintendo-switch.jpg" href="https://propz.com.br"></mj-image>
+        <mj-text font-family="roboto" color="darkblue" align="center" height="40px">Nintendo Switch edição básica cor preta</mj-text>
+        <mj-text font-family="roboto" font-size="20px" color="brown" align="center">Por: R$ 2500,00</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image width="100px" height="100px" src="../images/ps5-gow-combo.jpg" href="https://propz.com.br"></mj-image>
+        <mj-text font-family="roboto" color="darkblue" align="center" height="40px">PS5 Edição God of War + Controle Branco</mj-text>
+        <mj-text font-family="roboto" font-size="20px" color="brown" align="center">Por: R$ 4500,00</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image width="100px" height="100px" src="../images/ps5-controller.jpg" href="https://propz.com.br"></mj-image>
+        <mj-text font-family="roboto" color="darkblue" align="center" height="40px">Controle PS5 Branco</mj-text>
+        <mj-text font-family="roboto" font-size="20px" color="brown" align="center">Por: R$ 799,00</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-image width="100px" height="100px" src="../images/xbox-controller.jpg" href="https://propz.com.br"></mj-image>
+        <mj-text font-family="roboto" color="darkblue" align="center" height="40px">Controle Xbox One Preto</mj-text>
+        <mj-text font-family="roboto" font-size="20px" color="brown" align="center">Por: R$ 699,00</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image width="100px" height="100px" src="../images/zelda-botw.jpg" href="https://propz.com.br"></mj-image>
+        <mj-text font-family="roboto" color="darkblue" align="center" height="40px">Jogo Zelda Breath of the Wild para Nintendo Switch</mj-text>
+        <mj-text font-family="roboto" font-size="20px" color="brown" align="center">Por: R$ 250,00</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image width="100px" height="100px" src="../images/just-dance.jpg" href="https://propz.com.br"></mj-image>
+        <mj-text font-family="roboto" color="darkblue" align="center" height="40px">Jogo Just Dance para Xbox One</mj-text>
+        <mj-text font-family="roboto" font-size="20px" color="brown" align="center">Por: R$ 150,00</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+        <mj-column>
+            <mj-text
+                padding="32px"
+                align="center"
+                container-background-color="#F9F9F9"
+                font-size="24px"
+                color="#676767"
+                font-family="roboto"
+                font-weight="600"
+            >Acompanhe-nos nas redes sociais
+        </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#DE9931">
+      <mj-column>
+        <mj-image width="50px" align="center" src="../images/facebook.png" href="https://facebook.com.br"></mj-image>
+      </mj-column>
+      <mj-column>
+        <mj-image width="50px" src="../images/twitter.svg" href="https://twitter.com.br"></mj-image>
+      </mj-column>
+      <mj-column>
+        <mj-image width="50px" src="../images/instagram.svg" href="https://instagram.com.br"></mj-image>
+      </mj-column>
+      <mj-column>
+        <mj-image width="50px" src="../images/youtube.svg" href="https://youtube.com.br"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+        <mj-column>
+            <mj-text
+                padding="32px"
+                align="center"
+                container-background-color="#F9F9F9"
+                font-size="16px"
+                color="#676767"
+                font-family="roboto"
+                font-weight="600"
+                >Footer básico contendo informações essenciais para contato,
+                localização e botão para sair dessa lista de emails,
+                caso o usuário deseje.
+            </mj-text>
+        </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
