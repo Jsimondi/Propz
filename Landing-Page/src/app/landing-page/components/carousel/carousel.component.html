@@ -27,7 +27,7 @@
                 </div>
                 <div class="right-side">
                     <div class="credit-cards-wrapper">
-                        <img *ngIf="item.price['accepted-cards'].includes('Mastercard')" src="./assets/images/mastercard.png">
+                        <img class="credit-card-margin" *ngIf="item.price['accepted-cards'].includes('Mastercard')" src="./assets/images/mastercard.png">
                         <img *ngIf="item.price['accepted-cards'].includes('Visa')" src="./assets/images/visa.png">
                     </div>
                     <p>

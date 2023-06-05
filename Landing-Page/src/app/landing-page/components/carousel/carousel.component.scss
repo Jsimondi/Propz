@@ -1,8 +1,8 @@
 :host {
   width: 100%;
-  background-image: url("/assets/images/background.jpg");
-  background-repeat: no-repeat;
-  background-position: bottom;
+  // background-image: url("/assets/images/background.jpg");
+  // background-repeat: no-repeat;
+  // background-position: bottom;
 }
 
 .carousel-wrapper {
@@ -24,7 +24,7 @@
 
     &--arrow {
       position: absolute;
-      left: 0;
+      left: -24px;
       display: flex;
       height: 100%;
       align-items: center;
@@ -39,7 +39,7 @@
 
     .right-arrow {
       left: auto !important;
-      right: 0px
+      right: -24px
     }
   }
 
@@ -67,6 +67,7 @@
       justify-content: space-between;
 
       .left-side {
+        width: 70%;
         margin-top: 24px;
         p {
           font-size: 1.6em;
@@ -80,12 +81,16 @@
       }
 
       .right-side {
+        width: 30%;
         margin-top: 24px;
         .credit-cards-wrapper {
           display: flex;
           align-items: center;
           img {
             width: 40px;
+          }
+          .credit-card-margin {
+            margin-right: 8px;
           }
         }
       }
