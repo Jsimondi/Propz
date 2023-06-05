@@ -12,7 +12,7 @@ mobile.
 - A página deve funcionar em versões recentes dos navegadores Edge, Chrome
 e Firefox.
 
-E um arquivo [MJML](https://mjml.io) (**Na pasta ./assets/email/offers.mjml**)  **Email de Marketing** contendo:
+E um **Email de Marketing** na forma de um arquivo [MJML](https://mjml.io) (**Na pasta ./assets/email/offers.mjml**), contendo:
 - O template deve apresentar ao menos 6 ofertas
 - As ofertas presentes no exemplo são meramente para ilustrar posicionamento
 e formatação. Crie sua própria lista de ofertas.
