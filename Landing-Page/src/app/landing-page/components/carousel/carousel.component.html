@@ -2,8 +2,12 @@
     <div *ngFor="let item of carouselJSON.content, index as i" class="carousel">
         <div class="carousel__image" *ngIf="i === carouselIndex">
             <img [src]="item.imgSrc">
-            <i class="material-symbols-outlined carousel__image--arrow" (click)="previous()">navigate_before</i>
-            <i class="material-symbols-outlined carousel__image--arrow right-arrow" (click)="next()">navigate_next</i>
+            <div class="carousel__image--arrow">
+                <i class="material-symbols-outlined" (click)="previous()">navigate_before</i>
+            </div>
+            <div class="carousel__image--arrow right-arrow">
+                <i class="material-symbols-outlined" (click)="next()">navigate_next</i>
+            </div>
         </div>
         <div class="carousel__item" *ngIf="i === carouselIndex">
             <div class="carousel__item--description">
