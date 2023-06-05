@@ -21,6 +21,9 @@
     .title {
         border-bottom: 1px solid black !important;
         margin-bottom: 32px !important;
+        &:hover {
+            cursor: auto !important;
+        }
     }
 
     .store {

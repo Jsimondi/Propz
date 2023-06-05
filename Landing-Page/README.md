@@ -23,6 +23,8 @@ com compatibilidade com outros clientes de e-mail.
 ## Comentários gerais:
 As informações para executar o projeto estão logo abaixo e são as padrões para qualquer projeto Angular.. Caso algum problema aconteça estou a disposição para ajudar. Em anexo estão também arquivos que representam o estado de desenvolvimento das páginas (email e landing page) que vou manter atualizados conforme o desenvolvimento.
 Minha ideia principal foi executar ambos os projetos focando nas funcionalidades. Por não possuir tanto tempo, acabei não focando na qualidade e tratamento das imagens que representam os produtos.
+Os produtos estão sendo carregados do arquivo **JSON** localizado em **./src/assets/json/landing-page-products.JSON**.
+Todos os links/imagens clicáveis redirecionam para o site da Propz.
 Infelizmente a biblioteca [Swiper](https://swiperjs.com) acabou me dando mais atrapalhando do que ajudando, na hora de fazer o carrossel. Por isso optei por criar o meu próprio, tomando um pouco mais de tempo.
 Tirando este impecílio da biblioteca, o projeto foi bem divertido de implementar e me ajudou a relembrar bastante coisa da "linguagem" MJML, para os templates de email.
 
@@ -31,6 +33,7 @@ Tirando este impecílio da biblioteca, o projeto foi bem divertido de implementa
 - Índices interativos abaixo das imagens do carrossel, indicando quantos produtos ainda existem na lista (opcional).
 - Melhorar a qualidade e tamanho das imagens, para que todas fiquem proporcionais e não seja necessário nenhum truque de css para forçá-las a ter o mesmo tamanho.
 - Criar temas de cores e fontes para o projeto. Devido ao pouco tempo, acabei apenas utilizando uma fonte e não consegui criar um padrão de cores utilizando alguma biblioteca (SASS, por exemplo).
+- Carrossel de produtos ser responsivo ao "swipe" do usuário no modo mobile
 
 ### AngularCLI
 
