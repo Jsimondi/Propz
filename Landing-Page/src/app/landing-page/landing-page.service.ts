@@ -16,7 +16,8 @@ export interface CarouselObject {
       "installments": string;
       "installments-with-interest": string;
       "accepted-cards": string[];
-  }
+  },
+  "redirectTo": string;
 }
 
 @Injectable({

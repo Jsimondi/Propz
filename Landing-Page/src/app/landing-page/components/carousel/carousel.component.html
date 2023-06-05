@@ -1,7 +1,9 @@
 <div *ngIf="carouselJSON" class="carousel-wrapper">
     <div *ngFor="let item of carouselJSON.content, index as i" class="carousel">
         <div class="carousel__image" *ngIf="i === carouselIndex">
-            <img [src]="item.imgSrc">
+            <a href="{{item.redirectTo}}" target="_blank">
+                <img [src]="item.imgSrc">
+            </a>
             <div class="carousel__image--arrow">
                 <i class="material-symbols-outlined" (click)="previous()">navigate_before</i>
             </div>

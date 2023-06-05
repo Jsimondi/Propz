@@ -12,7 +12,8 @@
                 "accepted-cards": [
                     "Mastercard", "Visa"
                 ]
-            }
+            },
+            "redirectTo": "https://propz.com.br"
         },
         {
             "product-name": "Controle Xbox One Preto",
@@ -25,7 +26,8 @@
                 "accepted-cards": [
                     "Mastercard", "Visa"
                 ]
-            }
+            },
+            "redirectTo": "https://propz.com.br"
         },
         {
             "product-name": "Nintendo Switch: Zelda Breath Of The Wild",
@@ -38,7 +40,8 @@
                 "accepted-cards": [
                     "Mastercard", "Visa"
                 ]
-            }
+            },
+            "redirectTo": "https://propz.com.br"
         },
         {
             "product-name": "Xbox One: Just Dance",
@@ -51,7 +54,8 @@
                 "accepted-cards": [
                     "Mastercard", "Visa"
                 ]
-            }
+            },
+            "redirectTo": "https://propz.com.br"
         },
         {
             "product-name": "Console Nintendo Switch Edição Básica",
@@ -64,7 +68,8 @@
                 "accepted-cards": [
                     "Mastercard", "Visa"
                 ]
-            }
+            },
+            "redirectTo": "https://propz.com.br"
         },
         {
             "product-name": "PS5 Edição God of War + Controle",
@@ -77,7 +82,8 @@
                 "accepted-cards": [
                     "Mastercard", "Visa"
                 ]
-            }
+            },
+            "redirectTo": "https://propz.com.br"
         }
     ]
 }

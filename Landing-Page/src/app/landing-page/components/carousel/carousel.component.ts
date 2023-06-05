@@ -19,9 +19,9 @@ export class CarouselComponent {
   ngOnInit() {
     this.landingPageService.getCarouselJSON().subscribe((jsonObject: CarouselObject[]) => {
       this.carouselJSON = jsonObject;
-      this.carouselIndex = 5;
+      this.carouselIndex = 0;
 
-      //this.setCarouselInterval();
+      this.setCarouselInterval();
     })
   }
 
